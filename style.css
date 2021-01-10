@@ -1,5 +1,15 @@
 body{
     background-color: lightyellow;
+
+}
+.container1{
+    background-color: lightgrey;
+    border: 10px dotted pink
+
+}
+.container2{
+    background-color: greenyellow;
+    border: 10px dotted pink
 }
 p{
     font-size: 3rem;
@@ -11,4 +21,9 @@ p{
 ul li{
     background-color: blue;
     text-transform: uppercase;
+}
+@media screen and (max-width: 576px){
+    .container1  .container2{
+        display: none;
+    }
 }
